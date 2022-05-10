@@ -1,0 +1,138 @@
+body{
+    color:#40514E;
+text-align: center;
+font-family: 'merriweather', serif;
+margin: 0px;
+}
+p{
+    line-height: 2;
+}
+h1{
+    line-height: 2;
+    color:  #66BFBF;
+    font-size: 5.625rem; /******* static and dynamic. for static we use px while dynamic we use em or 
+    %. 16Px =100% =1em.  rem is unique in sense that the parent font settings does not affect the size
+    unlike em and % **********/
+    margin: 50px auto 0px auto;
+    margin-bottom: 0px;
+    font-family: 'sacramento', cursive;
+}
+h2{
+    color:  #66BFBF;
+    font-size: 2.5rem;
+    font-family: 'monserrat', sans-serif;
+    padding-bottom: 10px;
+}
+h3{ color:  #11999E;
+    font-family: 'monserrat', sans-serif;
+}
+hr{
+    
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 6px;
+    width: 4%;
+    margin: 100px auto;
+    
+}
+.topcontainer {
+    background-color: powderblue;
+    color: #40514E;
+    position: relative;
+    padding-top: 40px;
+ 
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+.middle-container{
+    margin: 100px 0;
+    color: #40514E;
+}
+
+.bottom-container{ 
+    background-color: #66BFBF;
+    padding: 50px 0 20PX;
+   
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+.img {
+    border-radius: 100%;
+    width: 25%;
+}
+.img-skill{
+    border-radius: 30%;
+    width: 50%;
+    float: left;
+    margin-right: 30px;
+}
+.img-skilll{
+    border-radius: 30%;
+    width: 50%;
+    float: right;
+    margin-left: 30px;
+}
+.skill-row{
+margin: auto;
+margin-top: 6.25rem;
+margin-bottom: 6.25rem; 
+width: 50%;
+text-align: left;
+}
+.footer-link{
+    color:  #11999E;
+    font-family: 'monserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: #EAF6F6;
+}
+
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+}
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'monserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+    text-decoration: none;
+  }
